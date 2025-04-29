@@ -61,7 +61,7 @@ export default function Grid({ color }) {
       {Array.from({ length: totalRows }, (_, rowIdx) => (
         <div
           key={`row-${rowIdx}`}
-          className="flex bg-amber-700 w-full"
+          className="flex w-full"
           style={{ height: `${cellWidth}px` }}
         >
           {Array.from({ length: totalCols }, (_, colIdx) => (
